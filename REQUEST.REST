@@ -1,0 +1,16 @@
+
+send Request
+POST http://localhost:3000/login-user 
+Content-Type: application/json
+{
+    "username":"kayl",
+    "password":"4536"
+}
+
+###
+POST http://localhost:3000/create-user
+Content-Type: application/json
+{
+    "username":"kayl",
+    "password":"4536"
+}
